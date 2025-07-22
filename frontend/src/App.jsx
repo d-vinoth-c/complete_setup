@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import axios from 'axios';
 
-const FUNCTION_URL = 'https://us-central1-complete-setup-466211.cloudfunctions.net/greet_user';
+const FUNCTION_URL = 'https://us-central1-python-get-post.cloudfunctions.net/flask-http-api';
 
 function App() {
   const [name, setName] = useState('');
